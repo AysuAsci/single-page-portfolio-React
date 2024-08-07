@@ -1,0 +1,54 @@
+.about-area {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 136px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  width: 540px;
+}
+
+.about-content h1 {
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: left;
+  color: #030303;
+}
+
+.about-content p {
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #7A746E;
+}
+
+.about-content button {
+  width: 228px;
+  height: 56px;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #EB7565;
+  color: #FFF7F0;
+  border: none;
+}
+
+.about-content button:hover {
+  background-color: #F6A560;
+  cursor: pointer;
+}
